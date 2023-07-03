@@ -113,4 +113,11 @@ $('form').validate({
         }
     }
 })
+
+var images = document.getElementsByClassName("zoom");
+    for (var i = 0; i < images.length; i++) {
+    images[i].addEventListener("click", function() {
+        this.classList.toggle("zoom");
+    });
+    }
 })

@@ -184,3 +184,25 @@ form {
 .success-message p {
     margin: 0 150px;
 }
+
+.zoom {
+    transition: transform 0.3s;
+}
+
+.zoom:hover {
+    transform: scale(2);
+}
+
+.bg-fundo {
+    background-image: url(img/Fundo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    z-index: -1;
+}
