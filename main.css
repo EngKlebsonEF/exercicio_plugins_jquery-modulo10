@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Bungee', cursive;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 html {
@@ -116,19 +116,18 @@ section p {
 
 nav1, nav2, nav3, nav4, nav5, nav6, nav7, nav8, nav9, nav10, nav11, nav12, nav13 {
     background-color: rgb(177, 175, 175);
-    padding: 16px 0;
+    padding: 16px 16px;
     display: none;
+    text-align: justify;
 }
 
 nav1 p, nav2 p, nav3 p, nav4 p, nav5 p, nav6 p, nav7 p, nav8 p, nav9 p, nav10 p, nav11 p, nav12 p, nav13 p {
     list-style: none;
     display: inline;
-    font-size: 12px;
+    font-size: 14px;
     font-style: italic;
-    text-transform: uppercase;
     color: #000000;
     text-decoration: none;
-    text-align: justify;
 }
 
 button {
