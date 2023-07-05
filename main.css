@@ -65,16 +65,15 @@ nav li a {
     background-color: #fff;
     display: block;
     margin-bottom: 4px;
-
 }
 
 .container-flex {
     display: flex;
-
 }
 
 #sobre-a-coleção img {
-    max-width: 400px;
+    max-width: 40%;
+    max-height: 40%;
     margin-right: 30px;
 }
 
